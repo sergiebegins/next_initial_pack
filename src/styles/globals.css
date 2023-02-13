@@ -1,0 +1,97 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+.mw-fit {
+  max-width: fit-content;
+}
+#__next {
+  height: 100%;
+}
+.body1 {
+  height: 100vh;
+}
+/* Login */
+
+.login1 {
+  font-size: 100%;
+  font-family: 'Arial Black';
+}
+.position1 {
+  margin-top: 20px;
+}
+.text1 {
+  font-size: 70%;
+  color: grey;
+}
+.icon1 {
+  background-color: #ffffff;
+}
+.btn1 {
+  color: #ffffff;
+  background-color: #007099;
+  border-color: #eeeeee;
+
+  margin-top: 20px;
+}
+.register1 {
+  margin-top: 20px;
+}
+
+.register {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/*signup*/
+
+.color1 {
+  color: #17a2b8;
+  display: inline-block;
+  cursor: pointer;
+}
+.custom-button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 12px;
+  height: 35px;
+  width: 130px;
+  padding: 0;
+}
+.custom-input {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 12px;
+  height: 35px;
+  display: none;
+}
+.icon2 {
+  margin-right: 8px;
+}
